@@ -1,0 +1,23 @@
+<form>
+	<h3> Add food </h3>
+	<input type="text" name="food">
+	<button>Add</button>
+
+<!--Variable Formats-->
+	<h2> The quick brown {{animal1}} jumped over the lazy {{animal2}}</h2>
+
+<!--Statement Formats-->
+	{% if n == 1 %}
+		n equals 1
+	{% else %}
+		n does not equal to 1
+	{% endif %}
+
+<!--For Loops-->
+	<ol>
+		{% for x in range (1, n+1) %}
+			<li>{{ x ** 2}}</li>
+		{% endfor %}
+	</ol>
+
+</form>
